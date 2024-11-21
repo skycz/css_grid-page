@@ -1,0 +1,25 @@
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {   
+    display: grid;
+    width: 1140px;
+    grid-template-columns: repeat(4, 240px); 
+    grid-template-rows: repeat(2, minmax(260px, auto)); 
+    grid-auto-rows: 260px;
+    gap: 60px;
+    margin: 82px auto 0 auto;
+}
+
+.news-img {
+    width: 100%;
+}
+
+.lorem_title {
+    font-size: 14px;
+    font-weight: 500;
+}
